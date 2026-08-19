@@ -82,8 +82,76 @@ nav ul li a:hover {
 .nav {
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center;   
 }
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__description {
+  width: 40%;
+}
+
+.header__img--wrapper {
+  width: 60%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #243e63;
+}
+
+nav {
+  padding: 24px 32px;
+}
+
+.nav__logo {
+  width: auto;
+  height: auto;
+  gap: 12px;
+}
+
+.nav__logo--title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.nav__links {
+  gap: 24px;
+}
+
+.nav__link {
+  color: #243e63;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.login {
+  margin-left: 24px;
+}
+
+.nav__link--primary {
+  background-color: #6415ff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 999px;
+}
+
+.btn__menu--svg {
+  display: none;
+}
+.header__customers {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 16px;
+  opacity: 0.5;
+}
+
 
