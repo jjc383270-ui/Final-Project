@@ -1,7 +1,9 @@
 
 nav {
-    background-color: white#333; /* Dark background for the nav */
-    padding: 10px; /* Space around the links */
+   nav {
+  background-color: white;
+  padding: 10px;
+}
 }
 .nav__logo {
     height: 40px;
