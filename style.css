@@ -222,6 +222,34 @@ nav {
 }
 
 /* QUALITY WORK */
+#quality .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quality__description {
+  width: 50%;
+  padding-right: 56px;
+}
+
+.quality__img--wrapper {
+  width: 50%;
+}
+
+.quality__img {
+  width: 100%;
+}
+
+#quality .section__tag {
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
 
 #quality .section__tag {
   color: #6415ff;
