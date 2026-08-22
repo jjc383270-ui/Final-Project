@@ -217,3 +217,22 @@ nav {
 .icon {
   width: 25px;
 }
+.section__para {
+  margin-top: 8px;
+}
+
+/* QUALITY WORK */
+
+#quality .btn {
+  margin-top: 32px;
+}
+
+.btn {
+  color: white;
+  background-color: #6415ff;
+}
+
+.purple {
+  color: #6415ff;
+  
+}
