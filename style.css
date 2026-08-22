@@ -223,16 +223,49 @@ nav {
 
 /* QUALITY WORK */
 
+#quality .section__tag {
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 #quality .btn {
   margin-top: 32px;
 }
-
 .btn {
-  color: white;
   background-color: #6415ff;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 32px;
+  font-weight: 700;
 }
+
 
 .purple {
   color: #6415ff;
   
+}
+#quality .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quality__description {
+  width: 50%;
+}
+
+#quality .section__title {
+  font-size: 48px;
+  line-height: 1.25;
+  font-weight: 900;
+  max-width: 520px;
+}
+
+#quality .section__para {
+  max-width: 520px;
+  margin-top: 16px;
+  color: #7c8ba1;
+  line-height: 1.6;
 }
