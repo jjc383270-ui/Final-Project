@@ -213,6 +213,149 @@ nav {
   line-height: 2;
   font-weight: 500;
 }
+/* Price */
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 8px;
+}
+#pricing .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pricing .section__title,
+#pricing .section__para {
+  text-align: center;
+}
+/* PRICING */
+#pricing .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pricing .section__tag {
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#pricing .section__title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.25;
+  text-align: center;
+}
+
+#pricing .section__para {
+  max-width: 576px;
+  margin-top: 16px;
+  color: #7c8ba1;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.plan {
+  width: 100%;
+  max-width: 384px;
+  margin-top: 64px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.plan__top,
+.plan__middle,
+.plan__bottom {
+  padding: 32px;
+}
+
+.plan__middle {
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.plan__name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.plan__price {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 8px 0;
+}
+
+.plan__duration {
+  color: #a0aec0;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+}
+
+.plan__target {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.plan__feature {
+  margin-top: 20px;
+  color: #718096;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.plan__button {
+  border: none;
+  border-radius: 999px;
+  padding: 16px 32px;
+  background-color: #6415ff;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+#pricing .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pricing .section__title,
+#pricing .section__para {
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.plan {
+  width: 100%;
+  max-width: 384px;
+  margin-top: 64px;
+  text-align: center;
+}
+
+.plan__price {
+  font-size: 48px;
+  font-weight: 700;
+}
 
 .icon {
   width: 25px;
