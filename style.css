@@ -222,6 +222,7 @@ nav {
 }
 
 /* QUALITY WORK */
+
 #quality .row {
   display: flex;
   align-items: center;
@@ -251,12 +252,6 @@ nav {
 }
 
 
-#quality .section__tag {
-  color: #6415ff;
-  font-size: 16px;
-  font-weight: 700;
-}
-
 #quality .btn {
   margin-top: 32px;
 }
@@ -274,15 +269,7 @@ nav {
   color: #6415ff;
   
 }
-#quality .row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.quality__description {
-  width: 50%;
-}
 
 #quality .section__title {
   font-size: 48px;
