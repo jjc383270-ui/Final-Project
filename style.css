@@ -536,4 +536,67 @@ nav {
   .testimonial__bottom {
     text-align: left;
   }
+  #steps .row {
+  display: flex;
+  align-items: center;
+}
+
+.steps__img--wrapper {
+  width: 50%;
+}
+
+.steps__img {
+  width: 100%;
+}
+
+#steps .row {
+  display: flex;
+  align-items: center;
+}
+
+.steps__img--wrapper {
+  width: 50%;
+}
+
+.steps__img {
+  width: 100%;
+}
+
+.steps__description {
+  width: 50%;
+  padding-left: 64px;
+}
+.steps__list {
+  margin-top: 48px;
+}
+
+.step {
+  display: flex;
+  margin-top: 32px;
+}
+
+.step__number {
+  color: #cbd5e0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.step__description {
+  margin-left: 24px;
+}
+
+.step__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #243e63;
+}
+
+.step__para {
+  margin-top: 12px;
+  max-width: 320px;
+  font-size: 14px;
+  line-height: 2;
+  color: #718096;
+}
 
