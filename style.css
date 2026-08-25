@@ -338,19 +338,18 @@ nav {
 #pricing .section__para {
   text-align: center;
 }
-
 .plans {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  gap: 32px;
 }
 
 .plan {
   width: 100%;
   max-width: 384px;
-  margin-top: 64px;
-  text-align: center;
 }
+
 
 .plan__price {
   font-size: 48px;
