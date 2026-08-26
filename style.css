@@ -375,7 +375,6 @@ nav {
 
 .quality__description {
   width: 50%;
-  padding-right: 56px;
 }
 
 .quality__img--wrapper {
@@ -385,6 +384,10 @@ nav {
 .quality__img {
   width: 100%;
 }
+
+
+
+
 
 #quality .section__tag {
   color: #6415ff;
