@@ -429,6 +429,16 @@ nav {
   color: #7c8ba1;
   line-height: 1.6;
 }
+.values__list {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.value {
+  font-weight: 700;
+  color: #243e63;
+}
 
 /* TESTIMONIALS */
 
