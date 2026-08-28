@@ -658,6 +658,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 60px 40px;
+  
 
 }
   display: flex;
@@ -666,7 +667,7 @@ nav {
 
 .start__title { color: #fff; }
 .start__btn--primary { background-color: #f56565; color:white; }
-.start__btn--secondary { background-color: transparent; color: #e70808; border: 1px solid #fff; }
+.start__btn--secondary { background-color: transparent; color: #f2eeee; border: 1px solid #fff; }
 footer {
   background-color: #6415ff;   /* purple runs edge to edge */
   padding: 80px 0;
@@ -693,7 +694,7 @@ footer {
 }
 
 .footer__column--title {
-  color: #fff;
+  color: #f2f0f6;
   font-weight: 700;
   letter-spacing: 0.05em;      /* the small-caps look */
   margin-bottom: 8px;
