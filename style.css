@@ -662,9 +662,12 @@ nav {
 
 }
  
-.start__title { color: #fff; }
+.start__title {
+  color: #fff;
+  max-width: 300px;
+}
 .start__btn--primary { background-color: #f56565; color:white; }
-padding: 80px;
+
 .start__btn--secondary { background-color: transparent; color: #f2eeee; border: 1px solid #fff; }
 footer {
   background-color: #6415ff;   /* purple runs edge to edge */
