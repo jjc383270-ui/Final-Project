@@ -240,9 +240,15 @@ nav {
 /* FEATURES */
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+.card {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .card {
@@ -366,10 +372,8 @@ nav {
   font-weight: 500;
   }
 
-  .card {
-    max-width: 320px;
-    margin: 0 auto;
-  }
+  
+  
 
 
 
@@ -888,6 +892,17 @@ footer {
   #start .row {
     flex-direction: column;
     text-align: center;
+    .card {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  text-align: left;
+}
+cards {
+  grid-template-columns: 1fr;
+  width: 100%;
+}
   }
   .start__title {
   font-size: 24px;
