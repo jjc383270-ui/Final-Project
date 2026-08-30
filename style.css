@@ -364,18 +364,15 @@ nav {
   color: #718096;
   font-size: 16px;
   font-weight: 500;
-  @media (max-width: 768px) {
-  .cards {
-    grid-template-columns: 1fr;
   }
 
   .card {
     max-width: 320px;
     margin: 0 auto;
   }
-}
 
-}
+
+
 .plan__button {
   border: none;
   border-radius: 999px;
@@ -444,10 +441,6 @@ nav {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  @media (max-width: 768px) {
-  #quality .row {
-    flex-direction: column;
-    text-align: center;
   }
 
   .quality__description,
@@ -464,8 +457,8 @@ nav {
     max-width: 420px;
     width: 100%;
   }
-}
-}
+
+
 
 .quality__description {
   width: 50%;
@@ -877,7 +870,8 @@ footer {
 .btn__menu {
   display: block;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px)
+{
   .plans {
     flex-direction: column;
     align-items: center;
@@ -887,7 +881,101 @@ footer {
   .plan {
     width: 100%;
     max-width: 384px;
-    #start .row {
+   
+  }
+}
+@media (max-width: 768px) {
+  #start .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .start__title {
+  font-size: 24px;
+}
+
+.start__buttons {
+  flex-direction: column;
+}
+
+}
+@media (max-width: 768px) {                
+  header .row,
+  #quality .row,
+  #steps .row,
+  #values .row,
+  #testimonials .row,
+  #start .row {
+    flex-direction: column;
+    text-align: center;
+    #features .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cards {
+  width: 100%;
+}
+
+.card {
+  width: 100%;
+  max-width: 320px;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+  }
+
+  .start__buttons {
+    flex-direction: column;
+  }
+}  
+
+  .header__description,
+  .header__img--wrapper,
+  .quality__description,
+  .quality__img--wrapper,
+  .steps__img--wrapper,
+  .steps__description,
+  .values__description,
+  .values__img--wrapper,
+  .testimonials__img,
+  .testimonials__description {
+    width: 100%;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan {
+    width: 100%;
+    max-width: 384px;
+  }
+
+  #quality .section__title {
+    font-size: 36px;
+  }
+
+  .quality__img,
+  .header__img {
+    margin-top: 40px;
+    max-width: 420px;
+  }
+
+  .steps__description,
+  .testimonials__description {
+    padding-left: 0;
+    margin-top: 48px;
+  }
+
+  #start .row {
   background-color: #6415ff;
   border-radius: 8px;
   display: flex;
@@ -909,19 +997,16 @@ footer {
   display: flex;
   gap: 24px;
 }
-  }
-}
-@media (max-width: 768px) {
-  #start .row {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .start__title {
-    font-size: 24px;
-  }
-
-  .start__buttons {
-    flex-direction: column;
-  }
+.start__btn--primary {
+  background-color: #f56565;
+  color: white;
 }
+
+.start__btn--secondary {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+
