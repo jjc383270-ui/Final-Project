@@ -365,6 +365,25 @@ nav {
   font-size: 16px;
   font-weight: 500;
 }
+.plan__business {
+  background-color: #6415ff;
+  color: white;
+}
+
+.plan__business .plan__middle {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.plan__business .plan__duration,
+.plan__business .plan__feature {
+  color: #e9d8fd;
+}
+
+.plan__business .plan__button {
+  background-color: white;
+  color: #6415ff;
+}
 
 .plan__button {
   border: none;
@@ -376,6 +395,25 @@ nav {
   cursor: pointer;
 }
 
+.plan__business {
+  background-color: #6415ff;
+  color: white;
+}
+
+.plan__business .plan__middle {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.plan__business .plan__duration,
+.plan__business .plan__feature {
+  color: #e9d8fd;
+}
+
+.plan__business .plan__button {
+  background-color: white;
+  color: #6415ff;
+}
 
 #pricing .row {
   display: flex;
@@ -498,8 +536,12 @@ nav {
   width: 45%;
 }
 
+.values__img--wrapper {
+  width: 50%;
+}
+
 .values__img {
-  width: 45%;
+  width: 100%;
   max-width: 450px;
 }
 
