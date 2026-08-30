@@ -364,6 +364,17 @@ nav {
   color: #718096;
   font-size: 16px;
   font-weight: 500;
+  @media (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
 }
 .plan__button {
   border: none;
@@ -433,6 +444,27 @@ nav {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  @media (max-width: 768px) {
+  #quality .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .quality__description,
+  .quality__img--wrapper {
+    width: 100%;
+  }
+
+  #quality .section__title {
+    font-size: 36px;
+  }
+
+  .quality__img {
+    margin-top: 40px;
+    max-width: 420px;
+    width: 100%;
+  }
+}
 }
 
 .quality__description {
@@ -851,8 +883,45 @@ footer {
     align-items: center;
   }
 
+  
   .plan {
     width: 100%;
     max-width: 384px;
+    #start .row {
+  background-color: #6415ff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  gap: 32px;
+}
+
+.start__title {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  max-width: 520px;
+}
+
+.start__buttons {
+  display: flex;
+  gap: 24px;
+}
+  }
+}
+@media (max-width: 768px) {
+  #start .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .start__title {
+    font-size: 24px;
+  }
+
+  .start__buttons {
+    flex-direction: column;
   }
 }
