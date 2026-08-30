@@ -365,26 +365,6 @@ nav {
   font-size: 16px;
   font-weight: 500;
 }
-.plan__business {
-  background-color: #6415ff;
-  color: white;
-}
-
-.plan__business .plan__middle {
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-}
-
-.plan__business .plan__duration,
-.plan__business .plan__feature {
-  color: #e9d8fd;
-}
-
-.plan__business .plan__button {
-  background-color: white;
-  color: #6415ff;
-}
-
 .plan__button {
   border: none;
   border-radius: 999px;
@@ -415,11 +395,6 @@ nav {
   color: #6415ff;
 }
 
-#pricing .row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 #pricing .section__title,
 #pricing .section__para {
@@ -869,4 +844,15 @@ footer {
 
 .btn__menu {
   display: block;
+}
+@media (max-width: 768px) {
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan {
+    width: 100%;
+    max-width: 384px;
+  }
 }
