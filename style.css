@@ -79,7 +79,8 @@ nav ul li a:hover {
 }
 
 .container {
-  padding: 80px 24px;
+  padding: 48px 24px;
+}
 }
 
 .nav {
@@ -675,16 +676,11 @@ nav {
   width: 100%;
 }
 
-#steps .row {
-  display: flex;
-  align-items: center;
-}
-
-.steps__img--wrapper {
-  width: 50%;
 
 
-}
+
+
+
 
 
 
@@ -708,8 +704,9 @@ nav {
   line-height: 1;
 }
 
-.step__description {
-  margin-left: 24px;
+.steps__description {
+  width: 50%;
+  padding-left: 64px;
 }
 
 .step__title {
@@ -739,8 +736,11 @@ nav {
 }
  
 .start__title {
-  color: #fff;
-  max-width: 300px;
+  width: 50%;
+  color: #f7fafc;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
 }
 .start__btn--primary { background-color: #f56565; color:white; }
 
@@ -771,9 +771,9 @@ footer {
 
 
 .footer__row {
-  max-width: 800px;
+  max-width: 1280px;
   margin: 0 auto;              /* content stays centered */
-  padding: 0 24px;
+  padding: 96px 32px;
 }
 
 /* --- top: the columns --- */
@@ -850,6 +850,15 @@ footer {
      .quality__description,
   .quality__img--wrapper {
     width: 100%;
+    @media (max-width: 768px) {
+  #features .container {
+    padding-top: 24px;
+  }
+
+  header .container {
+    padding-bottom: 32px;
+  }
+}
   }
 
   #quality .section__title {
