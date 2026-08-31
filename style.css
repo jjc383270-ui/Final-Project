@@ -81,7 +81,7 @@ nav ul li a:hover {
 .container {
   padding: 80px 24px;
 }
-}
+
 .nav {
   display: flex;
   justify-content: center;
@@ -442,21 +442,7 @@ nav {
   margin: 0 auto;
   }
 
-  .quality__description,
-  .quality__img--wrapper {
-    width: 100%;
-  }
-
-  #quality .section__title {
-    font-size: 36px;
-  }
-
-  .quality__img {
-    margin-top: 40px;
-    max-width: 420px;
-    width: 100%;
-  }
-
+ 
 
 
 .quality__description {
@@ -861,6 +847,20 @@ footer {
 @media (max-width: 768px) {
   .footer__links {
     flex-direction: column;
+     .quality__description,
+  .quality__img--wrapper {
+    width: 100%;
+  }
+
+  #quality .section__title {
+    font-size: 36px;
+  }
+
+  .quality__img {
+    margin-top: 40px;
+    max-width: 420px;
+    width: 100%;
+  }
   }
 
   .footer__bottom {
