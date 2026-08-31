@@ -81,7 +81,7 @@ nav ul li a:hover {
 .container {
   padding: 48px 24px;
 }
-}
+
 
 .nav {
   display: flex;
@@ -205,6 +205,12 @@ nav {
   max-width: 400px;
   margin-top: 16px;
   opacity: 0.5;
+}
+.header__customers--title {
+  margin-top: 80px;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 700;
 }
 .header__email {
   display: flex;
@@ -331,6 +337,12 @@ nav {
 .plan__middle,
 .plan__bottom {
   padding: 32px;
+  #features .container {
+  padding-top: 32px;
+}
+.container {
+  padding: 64px 24px;
+}
 }
 
 .plan__middle {
@@ -536,7 +548,49 @@ nav {
   gap: 40px;
   margin: 32px 0;
 }
+.value__title {
+  display: flex;
+  align-items: center;
+}
 
+.value__img--wrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.value:nth-child(1) .value__img--wrapper {
+  background-color: #9ae6b4;
+}
+
+.value:nth-child(2) .value__img--wrapper {
+  background-color: #feb2b2;
+}
+
+.plan:nth-child(1) {
+  border-top: 8px solid #38b2ac;
+}
+
+.plan:nth-child(3) {
+  border-top: 8px solid #f56565;
+}
+.plan:nth-child(1) .plan__button {
+  background: linear-gradient(115deg, #38b2ac, #81e6d9);
+  color: white;
+}
+
+.plan:nth-child(2) .plan__button {
+  background: white;
+  color: #6415ff;
+}
+
+.plan:nth-child(3) .plan__button {
+  background: linear-gradient(115deg, #f56565, #feb2b2);
+  color: white;
+}
 .value {
   width: 50%;
 }
@@ -673,7 +727,13 @@ nav {
 }
 
 .steps__img {
-  width: 100%;
+  width: 100%
+}
+.section__tag {
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 
@@ -854,6 +914,21 @@ footer {
   #features .container {
     padding-top: 24px;
   }
+  #features .row__narrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#features .section__title,
+#features .section__para {
+  text-align: center;
+}
+
+.cards {
+  width: 100%;
+  margin-top: 40px;
+}
 
   header .container {
     padding-bottom: 32px;
