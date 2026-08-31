@@ -246,6 +246,21 @@ nav {
 }
 
 /* FEATURES */
+#features .row__narrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#features .section__title,
+#features .section__para {
+  text-align: center;
+}
+
+.cards {
+  width: 100%;
+  margin-top: 40px;
+}
 
 .cards {
   display: grid;
