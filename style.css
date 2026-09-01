@@ -48,6 +48,11 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+}
+.row__narrow {
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .nav__logo {
@@ -103,6 +108,9 @@ header .row {
 .header__description {
   width: 40%;
 }
+.section__title {
+  /* styles from the lesson */
+}
 
 .header__img--wrapper {
   width: 60%;
@@ -110,6 +118,9 @@ header .row {
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #243e63;
+}
+section__para {
+  /* styles from the lesson */
 }
 
 nav {
@@ -250,16 +261,29 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 #features .section__title,
 #features .section__para {
   text-align: center;
+  padding: 24px;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+icon {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #6415ff;
+  border-radius: 50%;
+}
+
 
 .cards {
   width: 100%;
   margin-top: 40px;
+  gap: 64px 32px;
 }
 
 .cards {
@@ -292,11 +316,6 @@ nav {
   color: #333;
   margin-top: 8px;
 }
-#pricing .row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 #pricing .section__title,
 #pricing .section__para {
@@ -311,8 +330,14 @@ nav {
 
 #pricing .section__tag {
   color: #6415ff;
+  font-size: 48px;
+  font-weight: 700;
+}
+#pricing .section__tag {
+  color: #6415ff;
   font-size: 16px;
   font-weight: 700;
+  margin-bottom: 16px;
 }
 
 #pricing .section__title {
@@ -534,8 +559,11 @@ nav {
 }
 #values {
   padding: 96px 0;
-}
 
+}
+#values .section__tag {
+  margin-bottom: 16px;
+}
 #values .row {
   display: flex;
   flex-direction: row;
@@ -746,7 +774,7 @@ nav {
 }
 .section__tag {
   color: #6415ff;
-  font-size: 16px;
+  font-size: 32x;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -764,12 +792,15 @@ nav {
   padding-left: 64px;
 }
 .steps__list {
-  margin-top: 48px;
+  margin-top: 24px;
 }
 
+#steps .section__tag {
+  margin-bottom: 16px;
+}
 .step {
   display: flex;
-  margin-top: 32px;
+  margin-top: 8px;
 }
 
 .step__number {
@@ -785,13 +816,13 @@ nav {
 }
 
 .step__title {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 600;
   color: #243e63;
 }
 
 .step__para {
-  margin-top: 12px;
+  margin-top: 8px;
   max-width: 320px;
   font-size: 14px;
   line-height: 2;
