@@ -32,7 +32,7 @@ nav ul {
 
 nav ul li {
   display: inline; /* Display links in a row */
-  margin-right: 20px; /* Space between links */
+  margin-right: 40px; /* Space between links */
 }
 
 nav ul li a {
@@ -85,6 +85,7 @@ nav ul li a:hover {
 
 .container {
   padding: 48px 24px;
+  margin-top: 48px
 }
 
 
@@ -107,6 +108,9 @@ header .row {
 
 .header__description {
   width: 40%;
+  margin-left: 93.5px;
+  margin-right: 93.5px;
+
 }
 .section__title {
   /* styles from the lesson */
@@ -130,11 +134,11 @@ nav {
 .nav__logo {
   width: auto;
   height: auto;
-  gap: 12px;
+  gap: 16px;
 }
 
 .nav__logo--title {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 900;
 }
 
