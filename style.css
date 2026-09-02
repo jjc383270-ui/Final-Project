@@ -24,6 +24,7 @@ nav {
   color: #7237df;
 }
 
+
 nav ul {
   list-style-type: none; /* Remove bullet points */
   margin: 0; /* Remove default margin */
@@ -434,10 +435,7 @@ icon {
   font-weight: 700;
   cursor: pointer;
 }
-.plan__button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
+
 
 .plan__business {
   background-color: #6415ff;
@@ -815,7 +813,7 @@ icon {
   line-height: 1;
   margin-top: -2px;
 }
-}
+
 
 .steps__description {
   width: 50%;
@@ -929,8 +927,13 @@ footer {
   border-top: 2px solid rgba(255, 255, 255, 0.2);
   margin: 60px 0 40px;
 }
-
 /* --- bottom: three items across --- */
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer__bottom {
   display: flex;
   justify-content: space-between;
@@ -943,7 +946,7 @@ footer {
 
 .footer__copy { color: #fff; opacity: 0.8; font-size: 14px; }
 
-.footer__social { display: flex; gap: 16px; }
+.footer__social { display: flex; gap: 16px; }/*
 
 .footer__social--link {
   background-color: #f7fafc;   /* white circle */
@@ -961,6 +964,7 @@ footer {
 @media (max-width: 768px) {
   .footer__links {
     flex-direction: column;
+    .footer__bottom;
   }
 
   #features .container {
@@ -1030,12 +1034,15 @@ footer {
     max-width: 384px;
    
   }
+  @media (max-width: 768px) {
+  .footer__links { flex-direction: column; }
+  .footer__bottom { flex-direction: column; gap: 24px; }
+  .nav__links { display: none; }
+  .btn__menu { display: block; }
+  /* everything else mobile */
+}
 
-
-@media (max-width: 768px) {
-  .nav__links {
-    display: none;
-  }
+  
 
   .btn__menu {
     display: block;
@@ -1106,6 +1113,6 @@ footer {
   .start__buttons {
     flex-direction: column;
   }
-}
+
 
 
