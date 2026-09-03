@@ -1022,7 +1022,7 @@ footer {
   }
 
   .nav__links {
-    display: block;
+    display: none;
   }
 
   .btn__menu {
@@ -1054,7 +1054,7 @@ footer {
   
 
   .btn__menu {
-    display: block;
+    display: none;
   }
 
   header .row,
