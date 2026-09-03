@@ -323,7 +323,7 @@ icon {
 /* PRICING */
 #pricing .row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -982,7 +982,7 @@ footer {
 
   #features .row__narrow {
     display: flex;
-    flex-direction: column;
+    flex-direction: ;
     align-items: center;
   }
 
@@ -1022,14 +1022,14 @@ footer {
   }
 
   .nav__links {
-    display: none;
+    display: block;
   }
 
   .btn__menu {
     display: block;
   }
   .plans {
-    flex-direction: column;
+    
     align-items: center;
     font-size: 8px;
   }
