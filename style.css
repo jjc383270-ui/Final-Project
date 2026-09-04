@@ -563,7 +563,7 @@ text-align: center;
 
 display: flex;
 
-flex-direction: row;
+flex-direction: column;
 
 align-items: center;
 
@@ -1793,7 +1793,7 @@ display: block;
 
 .btn__menu {
 
-display: none;
+display: block;
 
 }
 
