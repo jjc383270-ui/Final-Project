@@ -1461,9 +1461,7 @@ gap: 32px;
 
 
 
-display: flex;
-justify-content: flex-end;
-gap: 32px;
+
 
 
 #start .start__btn--primary {
@@ -1726,7 +1724,7 @@ padding-top: 24px;
 
 }
 
-}
+
 
 #features .row__narrow {
 
