@@ -845,6 +845,13 @@ max-width: 1200px;
 margin: 0 auto;
 
 }
+.plan__button:hover {
+
+transform: translate(1px, -1px);
+
+box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
 
 .quality__description {
 
@@ -1426,7 +1433,7 @@ display: flex;
 justify-content: center;
 
 align-items: center;
-gap: 160px
+gap: 160px;
 
 
 }
@@ -1444,11 +1451,20 @@ font-weight: 700;
 line-height: 1.5;
 
 }
-.start__buttons
+.start__buttons {
 
-width: 50%;{
+width: 50%;
+
+display: flex;
+
+justify-content: flex-end;
+
+gap: 32px;
 
 }
+
+
+
 display: flex;
 justify-content: flex-end;
 gap: 32px;
@@ -1678,6 +1694,10 @@ transition: all 300ms ease;
 
 background-color: #cbd5e0;
 
+}
+#start .start__btn--primary {
+background-color: #f56565;
+color: white;
 }
 
 @media (max-width: 768px) {
@@ -1940,6 +1960,10 @@ margin-top: 48px;
 
 flex-direction: column;
 
+}
+#start .start__btn--primary {
+background-color: #f56565;
+color: white;
 }
 
 }
