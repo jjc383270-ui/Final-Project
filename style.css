@@ -473,17 +473,15 @@ box-sizing: border-box;
 
 }
 
-icon {
-
-width: 48px;
-
-height: 48px;
-
-border: 1px solid #6415ff;
-
-border-radius: 50%;
-
+.icon {
+  width: 24px;
+  height: 24px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 50%;
 }
+
+
 
 .cards {
 
@@ -695,6 +693,7 @@ font-weight: 700;
 
 margin: 8px 0;
 
+
 }
 
 .plan__duration {
@@ -815,11 +814,7 @@ font-weight: 700;
 
 }
 
-.icon {
 
-width: 25px;
-
-}
 
 .section__para {
 
@@ -1004,7 +999,7 @@ width: 50%;
 
 width: 100%;
 
-max-width: 450px;
+max-width: 100%;
 
 }
 
@@ -1728,6 +1723,14 @@ gap: 24px;
 
 padding-top: 24px;
 
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 50%;
+  box-sizing: content-box;
 }
 
 #features .row__narrow {
