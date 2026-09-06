@@ -1258,24 +1258,8 @@ margin-bottom: 24px;
 
 
 
-@media (max-width: 768px) {
-  .header__email {
-  flex-direction: column;
-  align-items: stretch;
-  border: none;
-  padding: 0;
-}
 
-.header__email--input {
-  width: 100%;
-  border: 2px solid #e5e7eb;
-  border-radius: 999px;
-}
 
-.header__email--btn {
-  width: 100%;
-  margin-top: 16px;
-}
 
 
 #testimonials .row {
@@ -2014,24 +1998,5 @@ flex-direction: column;
 background-color: #f56565;
 color: white;
 }
-.header__email {
-  flex-direction: column;
-  align-items: stretch;
-  border: none;
-  padding: 0;
-}
 
-.header__email--input {
-  width: 100%;
-  height: 56px;
-  padding: 0 32px;
-  border: 2px solid #e5e7eb;
-  border-radius: 999px;
-}
-
-.header__email--btn {
-  width: 100%;
-  height: 56px;
-  margin-top: 16px;
-}
 
