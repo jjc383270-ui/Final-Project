@@ -1307,23 +1307,33 @@ height: 64px;
 
 
 
-
 .testimonial__bottom {
-display: flex;
-justify-content: space-between;
-text-align: center;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin-top: 24px;
 }
+
 .testimonial__customer {
   display: flex;
   align-items: center;
   gap: 16px;
 }
+
 .testimonial__img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.testimonial__buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 0;
+}
 }
 
 
@@ -1997,6 +2007,100 @@ flex-direction: column;
 #start .start__btn--primary {
 background-color: #f56565;
 color: white;
+}
+@media (max-width: 768px) {
+  .footer__links {
+    justify-content: center;
+  }
+
+  .footer__column {
+    width: calc(100% / 3);
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  header .row,
+  #quality .row,
+  #steps .row,
+  #values .row,
+  #testimonials .row,
+  #start .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header__description,
+  .header__img--wrapper,
+  .quality__description,
+  .quality__img--wrapper,
+  .steps__img--wrapper,
+  .steps__description,
+  .values__description,
+  .values__img--wrapper,
+  .testimonials__img--wrapper,
+  .testimonials__description {
+    width: 100%;
+  }
+
+  .header__email {
+    flex-direction: column;
+    align-items: stretch;
+    border: none;
+    padding: 0;
+  }
+
+  .header__email--input {
+    flex: none;
+    width: 100%;
+    height: 56px;
+    padding: 0 32px;
+    border: 2px solid #e5e7eb;
+    border-radius: 999px;
+  }
+
+  .header__email--btn {
+    display: block;
+    width: 100%;
+    height: 56px;
+    margin-top: 16px;
+    padding: 0;
+  }
+
+  .testimonial__bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .testimonial__customer {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .testimonial__img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .testimonial__buttons {
+    margin-top: 24px;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__links {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
 }
 
 
