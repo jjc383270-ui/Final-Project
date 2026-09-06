@@ -1726,6 +1726,28 @@ color: white;
 }
 
 @media (max-width: 768px) {
+  .header__email {
+  flex-direction: column;
+  align-items: stretch;
+  border: none;
+  padding: 0;
+}
+
+.header__email--input {
+  width: 100%;
+  height: 56px;
+  padding: 0 32px;
+  border: 2px solid #e5e7eb;
+  border-radius: 999px;
+}
+
+.header__email--btn {
+  width: 100%;
+  height: 56px;
+  margin-top: 16px;
+}
+
+}
 
 .footer__links {
 
@@ -1992,23 +2014,24 @@ flex-direction: column;
 background-color: #f56565;
 color: white;
 }
+.header__email {
+  flex-direction: column;
+  align-items: stretch;
+  border: none;
+  padding: 0;
+}
 
-@media (max-width: 640px) {
-  .header__email {
-    flex-direction: column;
-    border: none;
-    padding: 0;
-  }
+.header__email--input {
+  width: 100%;
+  height: 56px;
+  padding: 0 32px;
+  border: 2px solid #e5e7eb;
+  border-radius: 999px;
+}
 
-  .header__email--input {
-    width: 100%;
-    height: 56px;
-    padding: 0 32px;
-    border: 2px solid #e5e7eb;
-    border-radius: 999px;
-  }
+.header__email--btn {
+  width: 100%;
+  height: 56px;
+  margin-top: 16px;
+}
 
-  .header__email--btn {
-    width: 100%;
-    margin-top: 16px;
-  }
