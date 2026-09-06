@@ -1935,6 +1935,19 @@ header .row,
 
   .btn__menu {
     display: block;
+    .footer__links {
+  justify-content: flex-start;
+}
+
+.footer__column {
+  width: calc(100% / 3);
+  margin-top: 32px;
+}
+
+.footer__bottom {
+  flex-direction: column;
+  gap: 24px;
+}
   }
 }
 
