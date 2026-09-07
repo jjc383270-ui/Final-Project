@@ -388,6 +388,20 @@ header .row {
 
 .steps__dots {
   position: absolute;
+  width: 176px;
+  height: 96px;
+  left: 50%;
+  bottom: -40px;
+  transform: translateX(-50%);
+  background-image: radial-gradient(#6415ff 2px, transparent 2px);
+  background-size: 14px 14px;
+  opacity: 0.35;
+  z-index: -1;
+}
+  
+
+.steps__dots {
+  position: absolute;
   width: 96px;
   height: 96px;
   right: 35%;
