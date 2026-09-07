@@ -367,7 +367,7 @@ header .row {
   margin-top: 32px;
 }
 
-/* STEPS */
+/* STEPS *//* STEPS */
 
 #steps .row {
   display: flex;
@@ -376,10 +376,26 @@ header .row {
 
 .steps__img--wrapper {
   width: 50%;
+  position: relative;
+  display: flex;
 }
 
 .steps__img {
   width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.steps__dots {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  right: 35%;
+  bottom: -48px;
+  background-image: radial-gradient(#6415ff 2px, transparent 2px);
+  background-size: 16px 16px;
+  opacity: 0.35;
+  z-index: 0;
 }
 
 .steps__description {
@@ -394,7 +410,7 @@ header .row {
 .step {
   display: flex;
   margin-top: 24px;
-  gap: 8px;
+  gap: 24px;
 }
 
 .step__number {
@@ -402,7 +418,6 @@ header .row {
   font-size: 36px;
   font-weight: 600;
   line-height: 1;
-  margin-top: -2px;
 }
 
 .step__title {
@@ -826,9 +841,17 @@ footer {
 
 @media (max-width: 768px) {
   .nav__links {
-    display: none;
+    display: flex;
+    flex-direction: column;
 
   }
+  .steps__dots {
+  width: 160px;
+  height: 96px;
+  right: 50%;
+  bottom: -40px;
+  transform: translateX(50%);
+}
   .header__email--input {
   transition: all 300ms ease;
 }
