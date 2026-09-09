@@ -402,6 +402,7 @@ header .row {
 .steps__description {
   width: 50%;
   padding-left: 64px;
+ 
 }
 
 .steps__list {
@@ -858,13 +859,22 @@ footer {
     flex-direction: column;
 
   }
+  .step {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+.step__description {
+  margin-left: 0;
+}
   
- .steps__dots {
-  width: 176px;
-  height: 96px;
+ .steps__grid {
+  width: 10rem;
+  height: 10rem;
   left: 50%;
   right: auto;
-  bottom: -40px;
+  bottom: -3rem;
   transform: translateX(-50%);
 }
 
