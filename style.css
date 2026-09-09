@@ -398,12 +398,13 @@ header .row {
   color: rgb(100, 21, 255);
   fill: currentColor;
 }
-
-.steps__description {
-  width: 50%;
-  padding-left: 64px;
- 
+.steps__description
+.testimonials__description {
+  padding-left: 0;
+  margin-top: 48px;
 }
+ 
+
 
 .steps__list {
   margin-top: 24px;
