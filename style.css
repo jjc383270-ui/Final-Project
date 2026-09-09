@@ -446,9 +446,20 @@ header .row {
   align-items: center;
   justify-content: space-between;
   gap: 64px;
-  .values__description {
+}
+.values__description {
+  width: 45%;
   text-align: center;
 }
+
+.value__title {
+  justify-content: center;
+}
+
+.value {
+  text-align: center;
+}
+
 
 .value__title {
   justify-content: center;
@@ -863,6 +874,21 @@ footer {
     flex-direction: column;
 
   }
+  #values .row {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.values__img--wrapper {
+  order: -1;
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.values__description {
+  width: 100%;
+}
   .steps__img--wrapper {
   margin-bottom: 64px;
 }
